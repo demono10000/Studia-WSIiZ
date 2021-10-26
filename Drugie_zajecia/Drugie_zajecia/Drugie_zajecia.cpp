@@ -62,14 +62,18 @@ int main()
       //zad 4
      float x, a, b, c;
      cout << "Podaj x: ", cin >> x;
+
      if (x > 0) a = 2 * x;
-     if (x == 0) a = 0;
-     if (x < 0) a = -3 * x;
+     else if (x == 0) a = 0;
+     else if (x < 0) a = -3 * x;
+
      if (x >= 1) b = x * x;
-     if (x < 1) b = x;
+     else if (x < 1) b = x;
+
      if (x > 2) c = 2 + x;
-     if (x == 2) c = 2;
-     if (x < 2) c = x - 4;
+     else if (x == 2) c = 2;
+     else if (x < 2) c = x - 4;
+
      cout << "a = " << a << ", b = " << b << ", c = " << c;
      */
      //zad 5
@@ -98,39 +102,45 @@ int main()
      //zad 6
     /*
     bool padaDeszcz, jestAutobus;
+
     cout << "Czy pada deszcz?: ", cin >> padaDeszcz;
     cout << "Czy jest autobus?: ", cin >> jestAutobus;
-    if (padaDeszcz && jestAutobus) {
+
+    if (padaDeszcz && jestAutobus) {\
+        cout << "Warunek 1. zostal spelniony\n";
         cout << "Wez parasol" << endl;
         cout << "Dostaniesz sie na uczelnie"<<endl;
     }
     if (padaDeszcz && !jestAutobus) {
+        cout << "Warunek 2. zostal spelniony\n";
         cout << "Nie dostaniesz sie na uczelnie"<<endl;
     }
     if (!padaDeszcz && jestAutobus) {
+        cout << "Warunek 3. zostal spelniony\n";
         cout << "Dostaniesz sie na uczelnie" << endl;
         cout << "Milego dnia i pieknej pogody"<<endl;
     }
-    else {
-        cout << "Nie wiem :(";
-    }
     */
+    /*
     //zad 7
     bool jestZnizkaNaSamochod, otrzymalesPremie;
+
     cout << "Czy masz znizke na samochod?: ", cin >> jestZnizkaNaSamochod;
     cout << "Czy otrzymales premie?: ", cin >> otrzymalesPremie;
+
     if (!jestZnizkaNaSamochod || otrzymalesPremie) {
+        cout << "Warunek 1. zostal spelniony\n";
         cout << "Mozesz kupic samochod!" << endl;
         cout << "Znizki na samochod nie ma :(" << endl;
     }
     if (!jestZnizkaNaSamochod || !otrzymalesPremie) {
+        cout << "Warunek 2. zostal spelniony\n";
         cout << "Zakup samochodu trzeba odlozyc na pozniej..."<<endl;
         cout << "Znizki na samochod nie ma"<<endl;
     }
     if (jestZnizkaNaSamochod || otrzymalesPremie) {
-        cout << "Mozesz kupic samochod" << endl;
+        cout << "Warunek 3. zostal spelniony\n";
+        cout << "Mozesz kupic samochod!" << endl;
     }
-    else {
-        cout << "Nie wiem :(";
-    }
+    */
 }
