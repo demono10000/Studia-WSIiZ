@@ -59,7 +59,7 @@ int main()
     cout << "Staz: " << staz << " dni";
     */
     //zad 6
-    /*
+    
     char samogloski[] = { 'a', 'e', 'i', 'o', 'u', 'y' };
     char tekst[100];
     cout << "Podaj tekst: ";
@@ -67,10 +67,11 @@ int main()
     int ileSamoglosek = 0;
     int ileSpolglosek = 0;
     for (int i = 0; i < strlen(tekst); i++) {
+        if (!isalpha(tekst[i])) continue;
         if (tekst[i] == ' ') continue;
         if (find(begin(samogloski), end(samogloski), char(tolower(tekst[i]))) != end(samogloski)) ileSamoglosek++;
         else ileSpolglosek++;
     }
     cout << "Samogloski: " << ileSamoglosek << ", spolgloski: " << ileSpolglosek;
-    */
+    
 }
