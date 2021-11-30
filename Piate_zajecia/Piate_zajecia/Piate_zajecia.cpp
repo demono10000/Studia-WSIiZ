@@ -15,6 +15,7 @@ int main()
     */
     //zad 4
     /*
+    cout << "Podaj cos: ";
     string cos;
     cin >> cos;
     string cos2 = cos;
@@ -27,6 +28,7 @@ int main()
     /*
     char tab[100];
     char tab2[100];
+    cout << "Podaj cos: ";
     cin.getline(tab, 100);
     strcpy_s(tab2, tab);
     cout << tab << endl;
@@ -57,10 +59,18 @@ int main()
     cout << "Staz: " << staz << " dni";
     */
     //zad 6
-    char samoglosi[] = { 'a', 'e', 'i', 'o', 'u', 'y' };
+    /*
+    char samogloski[] = { 'a', 'e', 'i', 'o', 'u', 'y' };
     char tekst[100];
+    cout << "Podaj tekst: ";
     cin.getline(tekst, 100);
-
-
-
+    int ileSamoglosek = 0;
+    int ileSpolglosek = 0;
+    for (int i = 0; i < strlen(tekst); i++) {
+        if (tekst[i] == ' ') continue;
+        if (find(begin(samogloski), end(samogloski), char(tolower(tekst[i]))) != end(samogloski)) ileSamoglosek++;
+        else ileSpolglosek++;
+    }
+    cout << "Samogloski: " << ileSamoglosek << ", spolgloski: " << ileSpolglosek;
+    */
 }

@@ -1,2 +1,3 @@
 ﻿  Piate_zajecia.cpp
-  Piate_zajecia.vcxproj -> C:\Users\pawel\Desktop\studia\cpp\Studia-WSIiZ\Piate_zajecia\Debug\Piate_zajecia.exe
+D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Piate_zajecia\Piate_zajecia\Piate_zajecia.cpp(70,23): warning C4018: "<": niezgodność typu ze znakiem/bez znaku
+  Piate_zajecia.vcxproj -> D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Piate_zajecia\Debug\Piate_zajecia.exe
