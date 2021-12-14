@@ -1,0 +1,8 @@
+﻿  MFunkcjeZad1.cpp
+D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Szoste_zajecia\Szoste_zajecia\MFunkcjeZad1.cpp(7,39): warning C4244: "return": konwersja z "double" do "float", możliwa utrata danych
+  MFunkcjeZad2.cpp
+  Szoste_zajecia.cpp
+D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Szoste_zajecia\Szoste_zajecia\Szoste_zajecia.cpp(35,34): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Szoste_zajecia\Szoste_zajecia\Szoste_zajecia.cpp(41,19): warning C4244: "argument": konwersja z "float" do "int", możliwa utrata danych
+  Generowanie kodu...
+  Szoste_zajecia.vcxproj -> D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Szoste_zajecia\Debug\Szoste_zajecia.exe
