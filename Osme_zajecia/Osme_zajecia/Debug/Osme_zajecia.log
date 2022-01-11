@@ -1,0 +1,3 @@
+﻿  Osme_zajecia.cpp
+D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Osme_zajecia\Osme_zajecia\Osme_zajecia.cpp(64,19): warning C4244: "inicjowanie": konwersja z "int" do "float", możliwa utrata danych
+  Osme_zajecia.vcxproj -> D:\Studia\WSiZ\semestr 1\Wstęp do programowania\lab\Studia-WSIiZ\Osme_zajecia\Debug\Osme_zajecia.exe
