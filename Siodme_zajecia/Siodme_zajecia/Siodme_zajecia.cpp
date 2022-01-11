@@ -38,13 +38,10 @@ int main()
     cout << ciag(a);
 }
 int decToBin(int a) {
-    if (a == 0) return 0;
-    else return  a % 2 + 10 * (decToBin(a / 2));
+    return a == 0 ? 0 : a % 2 + 10 * (decToBin(a / 2));
 }
 int NWD(int a, int b) {
-    if (a != b)
-        return NWD(a > b ? a - b : a, b > a ? b - a : b);
-    return a;
+    return a != b ? NWD(a > b ? a - b : a, b > a ? b - a : b) : a;
 }
 int fib(int a) {
     if (a == 0) return 0;
